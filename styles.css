@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-image: url(Images/Desktop\ -\ 2.png);
+    height: 100%;
+    padding-top: 10rem;
+    padding-left: 2rem;
+}
+
+h1 {
+    list-style: none;
+    font-family: "Poppins";
+    color: #333238;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #333238;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-family: "Open Sans";
+    color: #5B5B5B;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+.barra-tarefa {
+    margin-bottom: 1rem;
+}
+
+.barra-tarefa input {
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    height: 3rem;
+    width: 31rem;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-right: 0.8rem;
+}
+
+.barra-tarefa input:focus {
+    outline: none;
+}
+
+.barra-tarefa button {
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    color: antiquewhite;
+    background-color: #333238;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.label-tarefa {
+    font-family: "Open Sans";
+    margin-left: 1rem;
+    color: #333238;
+    background-color: #f9f9f9;
+    padding: 10px;
+    vertical-align: middle;
+    
+}
+
+.checkbox-custom {
+    margin-right: 0.6rem;
+    accent-color: blue;
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.novo-item {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 56rem;
+    vertical-align: middle;
+}
+
+.barra-tarefa button:active {
+    background-color: #272727;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+label {
+    cursor: pointer;
+}
